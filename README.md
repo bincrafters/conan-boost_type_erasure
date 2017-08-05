@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Type_Erasure](https://github.com/Boostorg/Type_Erasure) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Type_Erasure%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Type_Erasure%3Abincrafters).
 
 ## For Users: Use this package
 
