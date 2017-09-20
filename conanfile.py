@@ -12,19 +12,19 @@ class BoostType_ErasureConan(ConanFile):
     lib_short_names = ["type_erasure"]
     options = {"shared": [True, False]}
     default_options = "shared=False"
-    build_requires = "Boost.Generator/1.65.1@bincrafters/stable"
-    requires =  "Boost.Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Config/1.65.1@bincrafters/stable", \
-                      "Boost.Core/1.65.1@bincrafters/stable", \
-                      "Boost.Fusion/1.65.1@bincrafters/stable", \
-                      "Boost.Iterator/1.65.1@bincrafters/stable", \
-                      "Boost.Mpl/1.65.1@bincrafters/stable", \
-                      "Boost.Preprocessor/1.65.1@bincrafters/stable", \
-                      "Boost.Smart_Ptr/1.65.1@bincrafters/stable", \
-                      "Boost.Thread/1.65.1@bincrafters/stable", \
-                      "Boost.Throw_Exception/1.65.1@bincrafters/stable", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/stable",\
-                      "Boost.Typeof/1.65.1@bincrafters/stable"
+    build_requires = "Boost.Generator/1.65.1@bincrafters/testing"
+    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Fusion/1.65.1@bincrafters/testing", \
+                      "Boost.Iterator/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
+                      "Boost.Smart_Ptr/1.65.1@bincrafters/testing", \
+                      "Boost.Thread/1.65.1@bincrafters/testing", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing",\
+                      "Boost.Typeof/1.65.1@bincrafters/testing"
 
                       #assert1 config0 core2 fusion5 iterator5 mpl5 preprocessor0 smart_ptr4 throw_exception2 type_traits3 typeof5
 
