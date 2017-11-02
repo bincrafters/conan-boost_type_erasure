@@ -1,4 +1,5 @@
-from conans import ConanFile, tools, os
+from conans import ConanFile, tools
+import os
 
 class BoostType_ErasureConan(ConanFile):
     name = "Boost.Type_Erasure"
