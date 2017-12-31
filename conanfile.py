@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostType_ErasureConan(ConanFile):
     name = "boost_type_erasure"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-type_erasure"
+    url = "https://github.com/bincrafters/conan-boost_type_erasure"
 
     lib_short_names = ["type_erasure"]
     is_header_only = False
