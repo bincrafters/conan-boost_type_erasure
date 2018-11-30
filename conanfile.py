@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/testing")
+base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostType_ErasureConan(base.BoostBaseConan):
     name = "boost_type_erasure"
@@ -12,6 +12,7 @@ class BoostType_ErasureConan(base.BoostBaseConan):
     lib_short_names = ["type_erasure"]
     options = {"shared": [True, False]}
     default_options = "shared=False"
+    source_only_deps = ["thread"]
     b2_requires = [
         "boost_assert",
         "boost_config",
@@ -22,12 +23,8 @@ class BoostType_ErasureConan(base.BoostBaseConan):
         "boost_mpl",
         "boost_preprocessor",
         "boost_smart_ptr",
-        "boost_system",
-        "boost_thread",
         "boost_throw_exception",
         "boost_type_traits",
         "boost_typeof",
         "boost_vmd"
     ]
-
-
