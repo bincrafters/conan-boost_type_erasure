@@ -12,7 +12,6 @@ class BoostType_ErasureConan(base.BoostBaseConan):
     lib_short_names = ["type_erasure"]
     options = {"shared": [True, False]}
     default_options = "shared=False"
-    source_only_deps = ["thread"]
     b2_requires = [
         "boost_assert",
         "boost_config",
@@ -23,6 +22,7 @@ class BoostType_ErasureConan(base.BoostBaseConan):
         "boost_mpl",
         "boost_preprocessor",
         "boost_smart_ptr",
+        "boost_thread",
         "boost_throw_exception",
         "boost_type_traits",
         "boost_typeof",
