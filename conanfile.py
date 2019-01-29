@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostType_ErasureConan(base.BoostBaseConan):
     name = "boost_type_erasure"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_type_erasure"
     lib_short_names = ["type_erasure"]
     options = {"shared": [True, False]}
